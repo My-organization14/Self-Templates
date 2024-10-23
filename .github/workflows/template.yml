@@ -16,5 +16,5 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Print input
-        run: echo "Input received: ${{ inputs.my_input }}"
+        run: echo "Input received:${{ inputs.my_input }}"
 
