@@ -12,8 +12,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Check out code
-        uses: actions/checkout@v2
 
       - name: Print input
         run: echo "Input received:${{ inputs.my_input }}"
